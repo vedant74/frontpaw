@@ -10,4 +10,4 @@ Open `index.html` in any browser. No build step.
 
 ## Deployment
 
-Static site. Hosted on GitHub Pages at `https://srk0704.github.io/frontpaw` (or custom domain when configured).
+Static site. Hosted on GitHub Pages at `https://vedant74.github.io/frontpaw` (or custom domain when configured).
