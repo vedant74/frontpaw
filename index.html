@@ -176,6 +176,7 @@
       </a>
       <div class="hidden md:flex items-center gap-8 text-sm font-medium text-ink-700">
         <a href="#how" class="hover:text-ink-900 transition">How it works</a>
+        <a href="#dashboard" class="hover:text-ink-900 transition">Dashboard</a>
         <a href="#math" class="hover:text-ink-900 transition">The math</a>
         <a href="#faq" class="hover:text-ink-900 transition">FAQ</a>
       </div>
@@ -459,6 +460,199 @@
           </div>
           <div class="ml-auto text-xs font-mono text-ink-500">Total call time: 47s</div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Dashboard -->
+  <section id="dashboard" class="py-24 sm:py-32 bg-white border-y border-ink-900/5">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16 reveal">
+        <p class="text-xs font-mono uppercase tracking-widest text-brand-700 mb-4">Your dashboard</p>
+        <h2 class="text-4xl sm:text-5xl font-bold tracking-tight mb-6">Every call, every recall. <span class="font-serif italic font-normal">In one view.</span></h2>
+        <p class="text-lg text-ink-500 max-w-2xl mx-auto">See every inbound call answered and every outbound recall in flight — live. No more guessing what your front desk got done today.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-6">
+
+        <!-- INBOUND DASHBOARD -->
+        <div class="bg-cream rounded-3xl border border-ink-900/5 overflow-hidden reveal">
+          <!-- Header -->
+          <div class="bg-ink-900 text-cream px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="font-mono text-lg text-brand-500">↓</span>
+              <div>
+                <div class="font-mono text-[10px] text-ink-300 uppercase tracking-widest">Inbound</div>
+                <div class="font-bold text-sm">Today's calls</div>
+              </div>
+            </div>
+            <span class="font-mono text-xs text-ink-300">Tue · May 19</span>
+          </div>
+
+          <!-- Stats -->
+          <div class="grid grid-cols-3 divide-x divide-ink-900/5 border-b border-ink-900/5 bg-white">
+            <div class="p-5 text-center">
+              <div class="text-3xl font-bold tabular-nums">47</div>
+              <div class="text-[10px] font-mono text-ink-500 uppercase tracking-wider mt-1">Answered</div>
+            </div>
+            <div class="p-5 text-center">
+              <div class="text-3xl font-bold tabular-nums text-brand-700">31</div>
+              <div class="text-[10px] font-mono text-ink-500 uppercase tracking-wider mt-1">Booked</div>
+            </div>
+            <div class="p-5 text-center">
+              <div class="text-3xl font-bold tabular-nums">$5,580</div>
+              <div class="text-[10px] font-mono text-ink-500 uppercase tracking-wider mt-1">Captured</div>
+            </div>
+          </div>
+
+          <!-- Recent calls -->
+          <div class="p-5 space-y-2.5">
+            <div class="text-[10px] font-mono uppercase tracking-wider text-ink-500 mb-3">Recent</div>
+
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-ink-900/5">
+              <div class="w-9 h-9 rounded-full bg-amber-400 flex items-center justify-center text-base flex-shrink-0">👤</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">Sarah · Bella's mom</div>
+                <div class="text-xs text-ink-500">Booked annual exam · Tue 10:30 AM</div>
+              </div>
+              <div class="text-xs font-mono text-brand-700 font-semibold flex-shrink-0">$180</div>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-ink-900/5">
+              <div class="w-9 h-9 rounded-full bg-amber-400 flex items-center justify-center text-base flex-shrink-0">👤</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">John · Max's dad</div>
+                <div class="text-xs text-ink-500">Rx refill · Transferred to pharmacist</div>
+              </div>
+              <div class="text-xs font-mono text-ink-500 flex-shrink-0">—</div>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-ink-900/5">
+              <div class="w-9 h-9 rounded-full bg-amber-400 flex items-center justify-center text-base flex-shrink-0">👤</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">Maria · Whiskers's mom</div>
+                <div class="text-xs text-ink-500">Booked dental cleaning · Fri 2 PM</div>
+              </div>
+              <div class="text-xs font-mono text-brand-700 font-semibold flex-shrink-0">$420</div>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-ink-900/5">
+              <div class="w-9 h-9 rounded-full bg-amber-400 flex items-center justify-center text-base flex-shrink-0">👤</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">David · Luna's dad</div>
+                <div class="text-xs text-ink-500">Question about food · Resolved</div>
+              </div>
+              <div class="text-xs font-mono text-ink-500 flex-shrink-0">—</div>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 bg-red-50 rounded-xl border border-red-200">
+              <div class="w-9 h-9 rounded-full bg-red-200 flex items-center justify-center text-base flex-shrink-0">🚨</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">Cooper · seizure</div>
+                <div class="text-xs text-ink-500">Triaged to ER · Dr. Krull notified</div>
+              </div>
+              <div class="text-[10px] font-mono text-red-600 font-bold flex-shrink-0">URGENT</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- OUTBOUND DASHBOARD -->
+        <div class="bg-cream rounded-3xl border border-ink-900/5 overflow-hidden reveal" style="transition-delay: 0.1s">
+          <!-- Header -->
+          <div class="bg-ink-900 text-cream px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="font-mono text-lg text-brand-500">↑</span>
+              <div>
+                <div class="font-mono text-[10px] text-ink-300 uppercase tracking-widest">Outbound</div>
+                <div class="font-bold text-sm">Lapsed-patient recovery</div>
+              </div>
+            </div>
+            <span class="font-mono text-xs text-ink-300">This week</span>
+          </div>
+
+          <!-- Stats -->
+          <div class="grid grid-cols-3 divide-x divide-ink-900/5 border-b border-ink-900/5 bg-white">
+            <div class="p-5 text-center">
+              <div class="text-3xl font-bold tabular-nums">50</div>
+              <div class="text-[10px] font-mono text-ink-500 uppercase tracking-wider mt-1">Called</div>
+            </div>
+            <div class="p-5 text-center">
+              <div class="text-3xl font-bold tabular-nums text-brand-700">12</div>
+              <div class="text-[10px] font-mono text-ink-500 uppercase tracking-wider mt-1">Booked back</div>
+            </div>
+            <div class="p-5 text-center">
+              <div class="text-3xl font-bold tabular-nums">$4,820</div>
+              <div class="text-[10px] font-mono text-ink-500 uppercase tracking-wider mt-1">Recovered</div>
+            </div>
+          </div>
+
+          <!-- Queue -->
+          <div class="p-5 space-y-2.5">
+            <div class="text-[10px] font-mono uppercase tracking-wider text-ink-500 mb-3">Priority queue · Next to call</div>
+
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-ink-900/5">
+              <div class="w-9 h-9 rounded-full bg-amber-200 flex items-center justify-center text-base flex-shrink-0">🐕</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">Bella · Golden, 7yr</div>
+                <div class="text-xs text-ink-500">425 days overdue · Senior wellness</div>
+              </div>
+              <div class="text-right flex-shrink-0">
+                <div class="text-xs font-mono text-brand-700 font-semibold">$340</div>
+                <div class="text-[10px] font-mono text-ink-500">Tue 5:30 PM</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-ink-900/5">
+              <div class="w-9 h-9 rounded-full bg-amber-200 flex items-center justify-center text-base flex-shrink-0">🐕</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">Max · Lab, 4yr</div>
+                <div class="text-xs text-ink-500">380 days overdue · Dental cleaning</div>
+              </div>
+              <div class="text-right flex-shrink-0">
+                <div class="text-xs font-mono text-brand-700 font-semibold">$620</div>
+                <div class="text-[10px] font-mono text-ink-500">Wed 4:00 PM</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-ink-900/5">
+              <div class="w-9 h-9 rounded-full bg-brand-100 flex items-center justify-center text-base flex-shrink-0">🐈</div>
+              <div class="flex-1 min-w-0">
+                <div class="font-semibold text-sm truncate">Whiskers · DSH, 9yr</div>
+                <div class="text-xs text-ink-500">540 days overdue · Wellness + bloodwork</div>
+              </div>
+              <div class="text-right flex-shrink-0">
+                <div class="text-xs font-mono text-brand-700 font-semibold">$280</div>
+                <div class="text-[10px] font-mono text-ink-500">Thu 6:00 PM</div>
+              </div>
+            </div>
+
+            <div class="text-[10px] font-mono uppercase tracking-wider text-ink-500 mt-5 mb-3">Today's results</div>
+
+            <div class="flex items-center gap-3 text-sm py-1.5">
+              <svg class="w-4 h-4 text-brand-700 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-ink-700 truncate">Luna booked · Thu 4 PM</span>
+              <span class="ml-auto font-mono text-xs text-brand-700 font-semibold">+$340</span>
+            </div>
+
+            <div class="flex items-center gap-3 text-sm py-1.5">
+              <svg class="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span class="text-ink-700 truncate">Charlie · voicemail · retry Fri</span>
+              <span class="ml-auto font-mono text-xs text-ink-500">pending</span>
+            </div>
+
+            <div class="flex items-center gap-3 text-sm py-1.5">
+              <svg class="w-4 h-4 text-ink-300 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+              <span class="text-ink-700 truncate">Mia · moved out of state</span>
+              <span class="ml-auto font-mono text-xs text-ink-500">closed</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer note -->
+      <div class="mt-12 text-center reveal">
+        <p class="text-sm text-ink-500 max-w-2xl mx-auto">Built into your PMS workflow — bookings, status changes, and recovered revenue write back to <span class="font-semibold text-ink-900">ezyVet</span>, <span class="font-semibold text-ink-900">Vetspire</span>, <span class="font-semibold text-ink-900">Cornerstone</span>, or <span class="font-semibold text-ink-900">AVImark</span> automatically.</p>
       </div>
     </div>
   </section>
